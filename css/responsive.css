@@ -1,0 +1,44 @@
+@media (max-width: 1030px){
+    .main-img{
+        width: 700px;
+        height: 500px;
+
+    }
+}
+
+@media (max-width: 850px){
+    .h1-bg{
+        font-size: 100px;
+    }
+    .p-bg1{
+        font-size: 50px;
+    }
+
+}
+
+
+
+@media (max-width: 1650px){
+    .gallery{
+        width: calc(100% - 40px);
+        columns: 4;
+    }
+}
+@media (max-width: 1200px){
+    .gallery{
+        width: calc(100% - 40px);
+        columns: 3;
+    }
+}
+@media (max-width: 768px){
+    .gallery{
+        
+        columns: 2;
+    }
+}
+@media (max-width: 480px){
+    .gallery{
+        
+        columns: 1;
+    }
+}
